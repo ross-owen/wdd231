@@ -1,0 +1,19 @@
+﻿:root {
+    --primary-color: #274c69;
+    --secondary-color: #000;
+    --accent1-color: #fff9cc;
+    --accent2-color: #4d1c07;
+    --subtle-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}

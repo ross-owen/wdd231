@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 131 - Temple Album - Ross L. Owen</title>
+    <meta name="description" content="WDD 231 | Ross L. Owen | Home">
+    <meta name="author" content="Ross L. Owen">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;700&display=swap"
+          rel="stylesheet">
+
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/get-dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body class="montserrat-400">
+<header>
+    <div class="banner">
+        <img src="images/profile.jpg" alt="Profile" width="200" height="258">
+        <h1>Ross L. Owen</h1>
+    </div>
+    <button id="menu" title="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/ross-lloyd-owen/">LinkedIn</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="card-container two-cards">
+        <section class="card">
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Lehi, Utah</h2>
+            <div class="location">
+                <img src="images/tg-point.jpg" alt="Thanksgiving Point, Lehi, UT" width="230" height="447">
+            </div>
+        </section>
+    </div>
+    <div class="card-container">
+        <section class="card">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="small-nav">
+                <ul>
+                    <li><a id="all-courses" href="#" class="active">All</a></li>
+                    <li><a id="cse-courses" href="#">CSE</a></li>
+                    <li><a id="wdd-courses" href="#">WDD</a></li>
+                </ul>
+            </div>
+            <div id="courses">
+                
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <p>&copy;<span id="current-year"></span> | Ross L. Owen | Utah</p>
+    <p id="last-modified"></p>
+</footer>
+</body>
+</html>
