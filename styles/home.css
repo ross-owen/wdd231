@@ -21,11 +21,14 @@ header .banner {
     justify-content: center;
     padding: 1rem 0;
     align-items: center;
+    text-shadow: 5px 5px 5px var(--secondary-color);
 }
 
 header .banner img {
     width: auto;
     height: 6rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px var(--secondary-color);
 }
 
 .navigation {
@@ -158,7 +161,7 @@ header .banner img {
     margin: 0;
     padding: 0.5rem;
     color: var(--subtle-color);
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .card ul {
