@@ -112,7 +112,8 @@ header .banner img {
 }
 
 .active {
-    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--subtle-color);
 }
 
 #menu {
@@ -162,6 +163,12 @@ header .banner img {
     padding: 0.5rem;
     color: var(--subtle-color);
     font-size: 1.1em;
+}
+
+.card h2 span {
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: normal;
 }
 
 .card ul {
