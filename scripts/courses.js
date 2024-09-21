@@ -118,12 +118,16 @@ function createCourses(filteredCourses) {
     }
 }
 
+const creditsRemainingSpan = document.querySelector('#credits-remaining');
+function setCreditsRemaining() {
+    let totalCredits = courses.reduce((accumulator, course) => accumulator + course.credits, 0);
+    let creditsRemaining = courses
+        .filter((course) => course.completed === false)
+        .reduce((accumulator, course) => accumulator + course.credits, 0)
+
+    creditsRemainingSpan.innerHTML = `(${creditsRemaining} of ${totalCredits} credits remaining)`;    
+}
+
 createCourses(courses);
 allCoursesButton.classList.add("sub-nav-selected")
-
-const creditsRemainingSpan = document.querySelector('#credits-remaining');
-let creditsRemaining = courses
-    .filter((course) => course.completed === false)
-    .reduce((accumulator, course) => accumulator + course.credits, 0)
-
-creditsRemainingSpan.innerHTML = `(${creditsRemaining} credits remaining)`;
+setCreditsRemaining();
