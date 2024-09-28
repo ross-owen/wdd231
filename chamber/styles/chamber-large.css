@@ -1,0 +1,37 @@
+﻿@media (min-width: 43.5em) {
+
+    header {
+        grid-template-columns: 1fr 2fr 3fr;
+    }
+    
+    header h1 {
+        color: var(--subtle-color);
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        position: unset;
+    }
+    
+    .navigation ul {
+        flex-direction: row;
+        position: unset;
+        top: unset;
+        right: unset;
+        width: unset;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: block;
+    }
+    
+    .two-cards {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-gap: 1rem;
+    }
+}

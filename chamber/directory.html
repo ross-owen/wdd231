@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>WDD 231 | Home Page | Ross L. Owen</title>
+    <title>WDD 231 | Lehi Chamber of Commerce | Ross L. Owen</title>
     <meta name="description" content="WDD 231 | Lehi Chamber of Commerce | Ross L. Owen">
     <meta name="author" content="Ross L. Owen">
 
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,51 +25,48 @@
     <link rel="icon" href="favicon.ico">
 
     <script src="scripts/directory.js" defer></script>
-    <script src="../scripts/base.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
     <script src="../scripts/get-dates.js" defer></script>
 </head>
 <body class="montserrat-400">
 <header>
-    <h1>Lehi Chamber of Commerce</h1>
+    <img src="images/logo.webp" alt="Lehi Chamber of Commerce" width="230" height="166">
+    <div class="banner">
+        <h1>Lehi</h1>
+        <h3>Chamber of Commerce</h3>
+    </div>
+    <button id="menu" title="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a id="home" href="#/">Home</a></li>
+            <li><a id="directory" class="active" href="directory.html">Directory</a></li>
+            <li><a id="join" href="#/">Join</a></li>
+            <li><a id="discover" href="#/">Discover</a></li>
+        </ul>
+    </nav>
 </header>
 <main>
-    <div class="hero">
-        <img src="images/hero.webp" alt="Lehi Chamber of Commerce" width="1000" height="721">
-    </div>
-    <div class="card-container">
-        <section class="card">
-            <h2>Events</h2>
-        </section>
-        <section class="card">
-            <h2>Current Weather</h2>
-            <div id="currentWeather"></div>
-        </section>
-        <section class="card">
-            <h2>Weather Forecast</h2>
-            <div id="weatherForecast"></div>
-        </section>
-    </div>
-    <div id="businesses">
+    <div id="members">
     </div>
 </main>
 <footer>
-    <div>
+    <div class="commerce-info">
         <div>Lehi Chamber of Commerce</div>
         <div>153 North 100 East</div>
         <div>Lehi, Utah 84043</div>
         <div>info@lehi-ut.gov</div>
         <div>(385) 201-1000</div>
     </div>
-    <div>
+    <div class="social-media">
         <img src="images/youtube.svg" alt="Youtube" width="32" height="32">
         <img src="images/twitter.svg" alt="Twitter (X)" width="32" height="32">
         <img src="images/linkedin.svg" alt="LinkedIn" width="32" height="32">
     </div>
-    <div>
+    <div class="school-info">
         <div>WDD231 Class Project</div>
         <div>Ross L. Owen</div>
         <div>&copy; <span id="current-year"></span> Lehi Chamber of Commerce</div>
-        <div>Last Modification: <span id="last-modified"></span></div>
+        <div><span id="last-modified"></span></div>
     </div>
 </footer>
 </body>
