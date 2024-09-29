@@ -5,12 +5,16 @@ const gridViewButton = document.querySelector('#grid-view-button');
 gridViewButton.addEventListener('click', (e) => {
     gridView.style.display = 'grid';
     listView.style.display = 'none';
+    gridViewButton.classList.toggle('active');
+    listViewButton.classList.toggle('active');
 });
 
 const listViewButton = document.querySelector('#list-view-button');
 listViewButton.addEventListener('click', (e) => {
     listView.style.display = 'block';
     gridView.style.display = 'none';
+    gridViewButton.classList.toggle('active');
+    listViewButton.classList.toggle('active');
 });
 
 async function getMemberData() {
