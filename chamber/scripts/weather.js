@@ -37,9 +37,9 @@ function populateIcon(weather) {
 
 function populateDetail(weather, main, sys) {
     currentWeatherDiv.innerHTML = `
-        <p>${weather.main}</p>
-        <p>High: ${Math.round(main.temp_max)}&deg;</p>
-        <p>Low: ${Math.round(main.temp_min)}&deg;</p>
+        <p>${Math.round(main.temp)}&degF ${weather.main}</p>
+        <p>High: ${Math.round(main.temp_max)}&deg; F</p>
+        <p>Low: ${Math.round(main.temp_min)}&deg; F</p>
         <p>Humidity: ${main.humidity}%</p>
         <p>Sunrise: ${getHourMinute(sys.sunrise)}</p>
         <p>Sunset: ${getHourMinute(sys.sunset)}</p>
