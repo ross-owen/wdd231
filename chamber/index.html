@@ -24,8 +24,8 @@
 
     <link rel="icon" href="favicon.ico">
 
-    <script src="scripts/directory.js" defer></script>
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <script src="../scripts/get-dates.js" defer></script>
 </head>
 <body class="montserrat-400">
@@ -38,21 +38,42 @@
     <button id="menu" title="menu"></button>
     <nav class="navigation">
         <ul>
-            <li><a id="home" href="index.html">Home</a></li>
-            <li><a id="directory" class="active" href="directory.html">Directory</a></li>
+            <li><a id="home" class="active" href="index.html">Home</a></li>
+            <li><a id="directory" href="directory.html">Directory</a></li>
             <li><a id="join" href="#/">Join</a></li>
             <li><a id="discover" href="#/">Discover</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <div class="view-switcher">
-        <img id="grid-view-button" src="images/grid-view.svg" alt="Grid View">
-        <img id="list-view-button" class="active" src="images/list-view.svg" alt="List View">
+    <div class="hero">
+        <div class="image-wrapper">
+            <img src="images/hero.webp" alt="Lehi Chamber of Commerce" width="1100" height="709">
+        </div>
+        <button id="call-to-action">Click to Join</button>
     </div>
-    <div id="grid-view">
-    </div>
-    <div id="list-view">
+    <div class="card-container">
+        <section class="card">
+            <h2>Events</h2>
+            <ul>
+                <li>Trick or Treat Parade: Oct 5 @2pm</li>
+                <li>First Service: Oct 6 @2:30pm</li>
+                <li>Sorcery and Cinema: Oct 12 @5pm</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Current&nbsp;Weather</h2>
+            <div id="current-weather"></div>
+            <div id="weather-forecast"></div>
+        </section>
+        <section class="card">
+            <h2>Spotlights!</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
     </div>
 </main>
 <footer>

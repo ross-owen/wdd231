@@ -108,9 +108,7 @@ header img {
 
 footer {
     margin-top: 1.5em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: block;
     font-size: 0.8em;
     padding: 1rem;
 }
@@ -121,15 +119,29 @@ footer div {
 }
 
 .social-media {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2rem;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    max-width: 220px;
+    padding: 2rem 0;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1.5rem;
+}
+
+.social-media img:hover {
+    border: 1px solid var(--accent1-color);
+    cursor: pointer;
 }
 
 #grid-view {
     padding-top: 1rem;
-    display: none;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
 }
@@ -137,7 +149,7 @@ footer div {
 #list-view {
     padding-top: 1rem;
     width: 100%;
-    display: block;
+    display: none;
 }
 
 #list-view table {
@@ -198,4 +210,74 @@ footer div {
 
 .website a {
     font-size: 0.7em;
+}
+
+/*Home Page*/
+.hero {
+    padding-top: 1rem;
+    position: relative;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+#call-to-action {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    border: 1px solid var(--primary-color);
+}
+
+#call-to-action:hover {
+    color: var(--subtle-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+.card-container {
+    display: block;
+}
+
+.card {
+    margin: 0.5rem 0;
+    border: 1px solid var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 10rem;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--subtle-color);
+    font-size: 1.1em;
+}
+
+.card h2 span {
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.card ul {
+    padding-top: 1rem;
+    padding-left: 2rem;
 }

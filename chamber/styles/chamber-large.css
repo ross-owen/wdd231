@@ -7,7 +7,13 @@
     header h1 {
         color: var(--subtle-color);
     }
-
+    
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
     #menu {
         display: none;
     }
@@ -28,10 +34,11 @@
     .navigation li {
         display: block;
     }
-    
-    .two-cards {
+
+    /*Home Page*/
+    .card-container {
         display: grid;
-        grid-template-columns: 3fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1rem;
     }
 }
