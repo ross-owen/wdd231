@@ -244,7 +244,7 @@ footer div {
 #call-to-action:hover {
     color: var(--subtle-color);
     background-color: var(--primary-color);
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--accent1-color);
     cursor: pointer;
 }
 
@@ -252,8 +252,12 @@ footer div {
     display: block;
 }
 
+.card-container-spotlight {
+    display: block;
+}
+
 .card {
-    margin: 0.5rem 0;
+    margin-top: 1rem;
     border: 1px solid var(--primary-color);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -280,4 +284,52 @@ footer div {
 .card ul {
     padding-top: 1rem;
     padding-left: 2rem;
+}
+
+.card h3 {
+    text-align: center;
+    background-color: var(--accent2-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0;
+    padding: 0.4rem;
+    color: var(--subtle-color);
+    font-size: 0.9em;
+}
+
+.card h4 {
+    text-align: center;
+    background-color: var(--accent2-color);
+    margin: 0;
+    padding: 0 0 0.5rem 0;
+    color: var(--subtle-color);
+    font-size: 0.6em;
+}
+
+.two-column {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9em;
+}
+
+#weather-detail img {
+}
+
+#weather-forecast {
+    padding: 1rem;
+}
+
+.spotlight-detail {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.spotlight-detail img {
+    width: 100%;
+    height: auto;
 }

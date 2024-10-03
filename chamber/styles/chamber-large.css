@@ -38,7 +38,14 @@
     /*Home Page*/
     .card-container {
         display: grid;
+        grid-template-columns: 3fr 2fr 2fr;
+        grid-gap: 1rem;
+    }
+
+    .card-container-spotlight {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1rem;
     }
+
 }
