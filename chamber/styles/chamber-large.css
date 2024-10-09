@@ -33,6 +33,7 @@
 
     .navigation li {
         display: block;
+        width: unset;
     }
 
     /*Home Page*/
