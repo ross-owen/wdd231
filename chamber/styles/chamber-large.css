@@ -49,4 +49,10 @@
         grid-gap: 1rem;
     }
 
+    /*Join Page*/
+    .form-wrapper {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-gap: 1rem;
+    }
 }
