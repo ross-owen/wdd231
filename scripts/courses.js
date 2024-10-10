@@ -79,7 +79,7 @@
 ];
 
 const coursesDiv = document.querySelector('#courses');
-
+const courseDetails = document.querySelector('#course-details');
 const allCoursesButton = document.querySelector('#all-courses');
 const cseCourses = document.querySelector('#cse-courses');
 const wddCourses = document.querySelector('#wdd-courses');
@@ -115,7 +115,31 @@ function createCourses(filteredCourses) {
         }
         courseDiv.innerHTML = `${course.subject} ${course.number} (${course.credits})`;
         coursesDiv.appendChild(courseDiv);
+        courseDiv.addEventListener('click', (e) => {
+            showCourseModal(course);
+        })
     }
+}
+
+function showCourseModal(course) {
+    const completedIcon = course.completed ? '✅' : '❌';
+    courseDetails.innerHTML = `
+        <div class="course-detail">
+            <div class="dialog-title-bar">
+                <h2>${course.title}</h2>
+                <button title="Close Dialog"></button>
+            </div>
+            <h4>${course.subject} ${course.number} : ${course.credits} Credits</h4>
+            <h5>Completed: ${completedIcon}</h5>
+            <p>${course.description}</p>
+            <div class="technology">
+                <h5>Technology</h5>
+                ${course.technology.map((t) => `<span>${t}</span>`).join('')}
+            </div>
+        </div>
+    `;
+    courseDetails.querySelector('button').addEventListener('click', () => courseDetails.close());
+    courseDetails.showModal();
 }
 
 const creditsRemainingSpan = document.querySelector('#credits-remaining');
@@ -129,5 +153,5 @@ function setCreditsRemaining() {
 }
 
 createCourses(courses);
-allCoursesButton.classList.add("sub-nav-selected")
 setCreditsRemaining();
+allCoursesButton.classList.add("sub-nav-selected")

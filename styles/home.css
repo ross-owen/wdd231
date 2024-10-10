@@ -178,12 +178,15 @@ header .banner img {
 
 .location {
     padding: 1rem;
+    margin-bottom: 1rem;
     display: grid;
     justify-items: center;
+    max-height: 250px;
+    overflow: hidden;
 }
 
 .location img {
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -201,6 +204,10 @@ header .banner img {
     text-align: center;
     border: 1px solid var(--secondary-color);
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.course:hover {
     box-shadow: 2px 2px 2px var(--accent2-color);
 }
 
@@ -212,6 +219,73 @@ header .banner img {
 .completed {
     color: var(--subtle-color);
     background-color: var(--accent2-color);
+}
+
+dialog {
+    align-self: center;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--accent2-color);
+    width: 50%;
+    max-width: 600px;
+}
+
+dialog::backdrop {
+    background-color: var(--backdrop-color);
+}
+
+dialog h4, h5, p, span {
+    padding-top: 0.5rem;
+    text-align: center;
+    display: block;
+}
+
+dialog .technology {
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+dialog p, span {
+    font-size: 0.8em;
+}
+
+dialog ul {
+    padding: 0 !important;
+}
+
+.dialog-title-bar {
+    position: relative;
+}
+
+.dialog-title-bar button {
+    background-color: var(--primary-color);
+    border: none;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.dialog-title-bar button::before {
+    content: "❎";
+    border: none;
+    padding: 0;
+}
+
+.course-detail {
+    margin: 0;
+    border: 1px solid var(--secondary-color);
+    min-height: 10rem;
+}
+
+.course-detail h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--subtle-color);
+    font-size: 1.1em;
 }
 
 footer {
