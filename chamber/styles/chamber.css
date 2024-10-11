@@ -531,3 +531,11 @@ dialog::backdrop {
         background-color: white;
     }
 }
+
+.ty-data-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    text-wrap: nowrap;
+    padding: 1rem;
+}
