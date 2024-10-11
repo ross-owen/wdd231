@@ -451,3 +451,83 @@ dialog::backdrop {
     border: none;
     padding: 0;
 }
+
+#non-profit {
+    background-color: white;
+    animation: non-profit-pulse 3s;
+}
+
+@keyframes non-profit-pulse {
+    0% {
+        background-color: white;
+    }
+    30% {
+        background-color: var(--primary-color);
+    }
+    50% {
+        background-color: var(--primary-color);
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+#bronze {
+    background-color: white;
+    animation: bronze-pulse 3s;
+}
+
+@keyframes bronze-pulse {
+    0% {
+        background-color: white;
+    }
+    30% {
+        background-color: #cd8532;
+    }
+    50% {
+        background-color: #cd8532;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+#silver {
+    background-color: white;
+    animation: silver-pulse 3s;
+}
+
+@keyframes silver-pulse {
+    0% {
+        background-color: white;
+    }
+    30% {
+        background-color: #c0c0c0;
+    }
+    50% {
+        background-color: #c0c0c0;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+#gold {
+    background-color: white;
+    animation: gold-pulse 3s;
+}
+
+@keyframes gold-pulse {
+    0% {
+        background-color: white;
+    }
+    30% {
+        background-color: #ffd700;
+    }
+    50% {
+        background-color: #ffd700;
+    }
+    100% {
+        background-color: white;
+    }
+}
