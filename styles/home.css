@@ -251,10 +251,6 @@ dialog p, span {
     font-size: 0.8em;
 }
 
-dialog ul {
-    padding: 0 !important;
-}
-
 .dialog-title-bar {
     position: relative;
 }

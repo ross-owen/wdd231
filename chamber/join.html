@@ -24,6 +24,7 @@
 
     <link rel="icon" href="favicon.ico">
 
+    <script src="scripts/join.js" defer></script>
     <script src="scripts/chamber.js" defer></script>
     <script src="../scripts/get-dates.js" defer></script>
 </head>
@@ -39,7 +40,7 @@
         <ul>
             <li><a id="home" href="index.html">Home</a></li>
             <li><a id="directory" href="directory.html">Directory</a></li>
-            <li><a id="join" class="active" href="join.html">Join</a></li>
+            <li><a id="join" href="join.html">Join</a></li>
             <li><a id="discover" href="#/">Discover</a></li>
         </ul>
     </nav>
@@ -50,27 +51,34 @@
             <h2>Become A Member</h2>
             <form class="join" action="thankyou.html" method="get">
                 <label for="firstName">First Name:
-                    <input type="text" id="firstName" name="firstName" required>
+                    <input type="text" id="firstName" name="firstName" title="First Name" autocomplete="given-name"
+                           required>
                 </label>
 
                 <label for="lastName">Last Name:
-                    <input type="text" id="lastName" name="lastName" required>
+                    <input type="text" id="lastName" name="lastName" title="Last Name" autocomplete="family-name"
+                           required>
                 </label>
 
                 <label for="organizationalTitle">Organizational Title:
-                    <input type="text" id="organizationalTitle" name="organizationalTitle">
+                    <input type="text" id="organizationalTitle" name="organizationalTitle"
+                           title="Organization Title"
+                           autocomplete="organization-title" minlength="7" pattern="[a-zA-Z\-\s]+" required>
                 </label>
 
                 <label for="email">Email Address:
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" title="Email Address" autocomplete="email" required>
                 </label>
 
                 <label for="mobilePhone">Mobile Phone Number:
-                    <input type="tel" id="mobilePhone" name="mobilePhone" required>
+                    <input type="tel" id="mobilePhone" name="mobilePhone" title="Mobile Phone Number"
+                           autocomplete="tel"
+                           required>
                 </label>
 
                 <label for="businessName">Business/Organization's Name:
-                    <input type="text" id="businessName" name="businessName">
+                    <input type="text" id="businessName" name="businessName" title="Business/Organization's Name"
+                           autocomplete="organization" required>
                 </label>
 
                 <label for="membershipLevel">Membership Level:
@@ -83,12 +91,13 @@
                 </label>
 
                 <label for="description">Description:
-                    <textarea id="description" name="description"></textarea>
+                    <textarea id="description" name="description" title="Description"></textarea>
                 </label>
 
                 <input type="hidden" id="timestamp" name="timestamp" value="">
-
-                <button class="body-button" type="submit">Join Now!</button>
+                <div class="form-layer">
+                    <button class="body-button" type="submit">Join Now!</button>
+                </div>
             </form>
         </section>
         <aside>
@@ -97,18 +106,64 @@
                 <section id="non-profit" class="card learn-more">
                     <h3>Non Profit</h3>
                     <button class="body-button">Learn More</button>
+                    <dialog>
+                        <div class="dialog-title-bar">
+                            <h2>Non Profit Membership</h2>
+                            <button type="button" title="Close Dialog"></button>
+                        </div>
+                        <div class="dialog-body">
+                            <h4>Join Our Community for Free</h4>
+                            <p>As a non-profit organization, we believe in supporting local businesses. Join our
+                                platform for free and start connecting with your community.</p>
+                        </div>
+                    </dialog>
                 </section>
                 <section id="bronze" class="card learn-more">
                     <h3>Bronze</h3>
-                    <button class="body-button">Learn More</button>
+                    <button type="button" class="body-button">Learn More</button>
+                    <dialog>
+                        <div class="dialog-title-bar">
+                            <h2>Bronze Membership</h2>
+                            <button type="button" title="Close Dialog"></button>
+                        </div>
+                        <div class="dialog-body">
+                            <h4>Boost Your Business with Bronze</h4>
+                            <p>Our Bronze membership offers essential features to help your business grow. Enjoy
+                                increased visibility, exclusive discounts, and more for a small fee.</p>
+                        </div>
+                    </dialog>
                 </section>
                 <section id="silver" class="card learn-more">
                     <h3>Silver</h3>
-                    <button class="body-button">Learn More</button>
+                    <button type="button" class="body-button">Learn More</button>
+                    <dialog>
+                        <div class="dialog-title-bar">
+                            <h2>Silver Membership</h2>
+                            <button type="button" title="Close Dialog"></button>
+                        </div>
+                        <div class="dialog-body">
+                            <h4>Elevate Your Business with Silver</h4>
+                            <p>Our Silver membership provides advanced features to take your business to the next level.
+                                Benefit from premium listings, priority customer support, and valuable networking
+                                opportunities.</p>
+                        </div>
+                    </dialog>
                 </section>
                 <section id="gold" class="card learn-more">
                     <h3>Gold</h3>
-                    <button class="body-button">Learn More</button>
+                    <button type="button" class="body-button">Learn More</button>
+                    <dialog>
+                        <div class="dialog-title-bar">
+                            <h2>Gold Membership</h2>
+                            <button type="button" title="Close Dialog"></button>
+                        </div>
+                        <div class="dialog-body">
+                            <h4>Maximize Your Potential with Gold</h4>
+                            <p>Our Gold membership offers the ultimate package for businesses seeking maximum exposure
+                                and growth. Enjoy top-tier features, personalized support, and exclusive
+                                partnerships.</p>
+                        </div>
+                    </dialog>
                 </section>
             </div>
         </aside>

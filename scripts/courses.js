@@ -84,21 +84,21 @@ const allCoursesButton = document.querySelector('#all-courses');
 const cseCourses = document.querySelector('#cse-courses');
 const wddCourses = document.querySelector('#wdd-courses');
 
-allCoursesButton.addEventListener('click', (e) => {
+allCoursesButton.addEventListener('click', () => {
     allCoursesButton.classList.add("sub-nav-selected")
     cseCourses.classList.remove("sub-nav-selected")
     wddCourses.classList.remove("sub-nav-selected")
     createCourses(courses);
 });
 
-cseCourses.addEventListener('click', (e) => {
+cseCourses.addEventListener('click', () => {
     allCoursesButton.classList.remove("sub-nav-selected")
     cseCourses.classList.add("sub-nav-selected")
     wddCourses.classList.remove("sub-nav-selected")
     createCourses(courses.filter((course) => course.subject === 'CSE'));
 });
 
-wddCourses.addEventListener('click', (e) => {
+wddCourses.addEventListener('click', () => {
     allCoursesButton.classList.remove("sub-nav-selected")
     cseCourses.classList.remove("sub-nav-selected")
     wddCourses.classList.add("sub-nav-selected")
@@ -115,7 +115,7 @@ function createCourses(filteredCourses) {
         }
         courseDiv.innerHTML = `${course.subject} ${course.number} (${course.credits})`;
         coursesDiv.appendChild(courseDiv);
-        courseDiv.addEventListener('click', (e) => {
+        courseDiv.addEventListener('click', () => {
             showCourseModal(course);
         })
     }

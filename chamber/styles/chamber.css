@@ -343,7 +343,7 @@ footer div {
 
 .join {
     padding: 1rem;
-    position: relative;
+    z-index: -1;
 }
 
 .join label {
@@ -355,13 +355,23 @@ footer div {
 .join input, select, textarea {
     display: block;
     font-size: 1.2em;
+    width: 17em;
+    height: 2em;
 }
 
 .join button {
     position: absolute;
-    bottom: 1rem;
     right: 1rem;
     padding: 0.5rem;
+}
+
+.join textarea {
+    height: 6em;
+}
+
+.form-layer {
+    height: 2.2em;
+    position: relative;
 }
 
 .form-wrapper {
@@ -376,4 +386,68 @@ footer div {
 
 .learn-more button {
     margin-top: 1.4rem;
+}
+
+.card {
+    margin-top: 1rem;
+    border: 1px solid var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 10rem;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 0.5rem;
+    color: var(--subtle-color);
+    font-size: 1.1em;
+}
+
+dialog {
+    align-self: center;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--accent2-color);
+    width: 50%;
+    max-width: 600px;
+}
+
+dialog::backdrop {
+    background-color: var(--backdrop-color);
+}
+
+.dialog-body {
+    padding: 1rem;
+}
+
+.dialog-body h4 {
+    background-color: unset;
+    color: var(--secondary-color);
+    font-size: 1em;
+    border: none;
+    border-radius: unset;
+}
+
+.dialog-title-bar {
+    position: relative;
+}
+
+.dialog-title-bar button {
+    background-color: var(--primary-color);
+    border: none;
+    position: absolute;
+    top: -12px;
+    right: 9px;
+    cursor: pointer;
+}
+
+.dialog-title-bar button::before {
+    content: "❎";
+    border: none;
+    padding: 0;
 }
