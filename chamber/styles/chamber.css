@@ -539,3 +539,85 @@ dialog::backdrop {
     text-wrap: nowrap;
     padding: 1rem;
 }
+
+
+/*Discover*/
+
+.discover {
+    display: block;
+}
+
+.discover h4 {
+    padding: 1rem 0 0 0;
+    margin: 0;
+    text-align: center;
+    background-color: unset;
+    font-size: 0.9em;
+}
+
+.discover p {
+    padding: 0 0.5rem;
+}
+
+.discover section img {
+    width: 100px;
+    height: auto;
+}
+
+.discover section a {
+    background: var(--primary-color);
+    color: var(--subtle-color);
+    border: 1px solid var(--secondary-color);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-right: 1.2rem;
+    float: right;
+}
+
+.discover section a:hover {
+    border: 1px solid var(--accent1-color);
+}
+
+.discover-photos {
+}
+
+.discover-photos img {
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.newsletter {
+    display: grid;
+}
+
+.newsletter a {
+    text-align: center;
+    align-self: center;
+    color: var(--secondary-color) !important;
+    background-color: var(--accent1-color) !important;
+}
+
+.newsletter a:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--subtle-color) !important;
+    border-color: var(--accent1-color) !important;
+}
+
+.dark-mode {
+    background-color: var(--secondary-color);
+    color: var(--subtle-color);
+}
+
+.dark-mode h5 {
+    font-size: 1em;
+}
+
+.dark-mode p {
+    padding-bottom: 1rem;
+}
+
+.light-mode h4 {
+    color: var(--secondary-color);
+}
