@@ -622,6 +622,10 @@ dialog::backdrop {
     color: var(--secondary-color);
 }
 
+.discover-header {
+    position: relative;
+}
+
 #welcome-back {
     position: absolute;
     /*text-align: right;*/
