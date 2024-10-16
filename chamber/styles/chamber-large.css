@@ -62,4 +62,27 @@
         grid-template-columns: 3fr 4fr;
         grid-gap: 1rem;
     }
+
+    .discover-photos figcaption {
+        padding-top: 0.5rem;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-container img {
+        transform: scale(0.96);
+        border-radius: 0;
+        box-shadow: 5px 5px 5px var(--secondary-color);
+        transition: transform 0.2s ease-in-out, border-radius 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+    
+    .image-container img:hover {
+        transform: scale(1);
+        border-radius: 10px;
+        box-shadow: none;
+    }
 }

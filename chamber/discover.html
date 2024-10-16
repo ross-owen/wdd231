@@ -25,10 +25,11 @@
     <link rel="icon" href="favicon.ico">
 
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
     <script src="../scripts/get-dates.js" defer></script>
 </head>
 <body class="montserrat-400">
-<header>
+<header style="position: relative">
     <img src="images/logo.webp" alt="Lehi Chamber of Commerce" loading="lazy" width="230" height="166">
     <div class="banner">
         <h1>Lehi</h1>
@@ -43,6 +44,7 @@
             <li><a id="discover" class="active" href="discover.html">Discover</a></li>
         </ul>
     </nav>
+    <div id="welcome-back"></div>
 </header>
 <main>
     <div class="discover">
@@ -52,7 +54,11 @@
                 <h4>Fiber is coming to Lehi!</h4>
                 <div class="two-column">
                     <div>
-                        <p>Lehi City is in the process of building a fiber-optic broadband network to provide high-speed Internet services to its community. After completing a Fiber Feasibility Study, Lehi City engaged in a competitive process to hire a company to design, construct, and operate a fiber network. This page will provide information and updates throughout the duration of the project.</p>
+                        <p>Lehi City is in the process of building a fiber-optic broadband network to provide high-speed
+                            Internet services to its community. After completing a Fiber Feasibility Study, Lehi City
+                            engaged in a competitive process to hire a company to design, construct, and operate a fiber
+                            network. This page will provide information and updates throughout the duration of the
+                            project.</p>
                         <a href="https://www.lehi-ut.gov/fiber/" title="Lehi Fiber" target="_blank">Learn More</a>
                     </div>
                     <img src="images/fiber.svg" alt="Fiber" loading="lazy" width="210" height="210">
@@ -63,7 +69,9 @@
                 <h4>Unity Inspired By Service</h4>
                 <div class="two-column">
                     <div>
-                        <p>At the opening ceremony for our annual community day of service, over 75 students from local high schools gathered at 8:00 AM on Saturday, September 7th —amazing! None of them were even born in 2001, yet they came ready to honor and serve.</p>
+                        <p>At the opening ceremony for our annual community day of service, over 75 students from local
+                            high schools gathered at 8:00 AM on Saturday, September 7th —amazing! None of them were even
+                            born in 2001, yet they came ready to honor and serve.</p>
                         <br>
                         <i>-Paige Albrecht</i>
                     </div>
@@ -83,12 +91,18 @@
                 <div class="two-column">
                     <div>
                         <h5>Bunco Night</h5>
-                        <p>Whether you’re new to the game or an old pro, everyone is welcome! So grab your friends and loved ones and join us for a great night of fun, food, and prizes.</p>
+                        <p>Whether you’re new to the game or an old pro, everyone is welcome! So grab your friends and
+                            loved ones and join us for a great night of fun, food, and prizes.</p>
                         <h5>Entrepreneur Market</h5>
-                        <p>The Legacy Center is hosting a market for youth entrepreneurs, giving them a real-world experience in the world of business as they learn to market and sell their goods. This market is for children ages 8-15yrs old.</p>
+                        <p>The Legacy Center is hosting a market for youth entrepreneurs, giving them a real-world
+                            experience in the world of business as they learn to market and sell their goods. This
+                            market is for children ages 8-15yrs old.</p>
                         <h5>Health & Fitness Fair</h5>
-                        <p>Come to the annual HEALTH & FITNESS FAIR.  Booths will include many local, health-related vendors and information booths, including 20% off Annual memberships during fair hours only.</p>
-                        <a href="https://www.lehi-ut.gov/legacy-center/programs/special-events/" title="Special Events" target="_blank">Learn More</a>
+                        <p>Come to the annual HEALTH & FITNESS FAIR. Booths will include many local, health-related
+                            vendors and information booths, including 20% off Annual memberships during fair hours
+                            only.</p>
+                        <a href="https://www.lehi-ut.gov/legacy-center/programs/special-events/" title="Special Events"
+                           target="_blank">Learn More</a>
                     </div>
                     <img src="images/special-event-icon.svg" alt="Special Events" loading="lazy" width="16" height="16">
                 </div>
@@ -96,28 +110,41 @@
         </div>
         <aside class="discover-photos">
             <figure>
-                <img src="images/hero.webp" alt="Lehi Roller Mills" loading="lazy" width="1100" height="709">
+                <div class="image-container">
+                    <img src="images/hero.webp" alt="Lehi Roller Mills" loading="lazy" width="1100" height="709">
+                </div>
                 <figcaption>Lehi Roller Mills</figcaption>
             </figure>
             <figure>
-                <img src="images/water-tower-plaza.webp" alt="Thanksgiving Point" loading="lazy" width="1100"
-                     height="709">
+                <div class="image-container">
+                    <img src="images/water-tower-plaza.webp" alt="Thanksgiving Point" loading="lazy" width="1100"
+                         height="709">
+                </div>
                 <figcaption>Thanksgiving Point</figcaption>
             </figure>
             <figure>
-                <img src="images/lehi-city-hall.webp" alt="Lehi City Hall" loading="lazy" width="1100" height="709">
+                <div class="image-container">
+                    <img src="images/lehi-city-hall.webp" alt="Lehi City Hall" loading="lazy" width="1100" height="709">
+                </div>
                 <figcaption>Lehi City Hall</figcaption>
             </figure>
             <figure>
-                <img src="images/lehi-legacy-center.webp" alt="Lehi Legacy Center" loading="lazy" width="1100" height="709">
+                <div class="image-container">
+                    <img src="images/lehi-legacy-center.webp" alt="Lehi Legacy Center" loading="lazy" width="1100"
+                         height="709">
+                </div>
                 <figcaption>Lehi Legacy Center</figcaption>
             </figure>
             <figure>
-                <img src="images/lehi-from-i15.webp" alt="Interstate 15" loading="lazy" width="1100" height="709">
+                <div class="image-container">
+                    <img src="images/lehi-from-i15.webp" alt="Interstate 15" loading="lazy" width="1100" height="709">
+                </div>
                 <figcaption>Lehi From I-15</figcaption>
             </figure>
             <figure>
-                <img src="images/main-street.webp" alt="Lehi Main Street" loading="lazy" width="1100" height="709">
+                <div class="image-container">
+                    <img src="images/main-street.webp" alt="Lehi Main Street" loading="lazy" width="1100" height="709">
+                </div>
                 <figcaption>Lehi Main Street</figcaption>
             </figure>
         </aside>

@@ -621,3 +621,23 @@ dialog::backdrop {
 .light-mode h4 {
     color: var(--secondary-color);
 }
+
+#welcome-back {
+    position: absolute;
+    /*text-align: right;*/
+    white-space: nowrap;
+    animation: scroll-left 20s linear normal;
+    bottom: 1em;
+    right: 1em;
+}
+
+@keyframes scroll-left {
+    from {
+        left: 100%;
+        width: 200%;
+    }
+    to {
+        left: -140%;
+        width: 200%;
+    }
+}
