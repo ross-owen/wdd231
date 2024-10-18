@@ -1,0 +1,28 @@
+
+
+:root {
+    --primary-color: #33658a;
+    --secondary-color: #2c363f;
+    --accent1-color: #86bbd8;
+    --accent2-color: #2f4858;
+    --subtle-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.raleway-400 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
