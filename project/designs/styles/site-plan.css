@@ -107,3 +107,8 @@ nav a:hover {
     background-color: var(--primary-color);
     color: var(--subtle-color);
 }
+
+.wire-frames img {
+    width: 100%;
+    height: auto;
+}
