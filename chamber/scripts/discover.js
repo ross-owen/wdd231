@@ -6,10 +6,12 @@ const div = document.getElementById('welcome-back');
 
 function showWelcomeBack() {
     let minutes =  Math.round(((now - lastVisited)/1000)/60);
+    let note = "Looks like you're new here. Welcome!";
     if (minutes >= 1) {
-        div.innerHTML = `Welcome back! You were gone for ${minutes} minutes. We missed you!`;
-        animateWelcomeBack();
+        note = `Welcome back! You were gone for ${minutes} minutes. We missed you!`;
     }
+    div.innerHTML = note;
+    animateWelcomeBack();
 }
 
 function animateWelcomeBack() {
