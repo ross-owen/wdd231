@@ -1,0 +1,31 @@
+.hero-container {
+    position: relative;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.hero-container h2 {
+    color: var(--subtle-color);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.hero-container img {
+    width: 100%;
+    height: auto;
+}
+
+#pixabay-credit {
+    text-decoration: none;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: var(--subtle-color);
+}
+
+#call-to-action {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}

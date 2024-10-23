@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Time Well Spent</title>
+    <meta name="description"
+          content="Time Well Spent | A site to find flight layovers long enough to enjoy a mini visit.">
+    <meta name="author" content="Ross L. Owen">
+
+    <meta property="og:title" content="Time Well Spent">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ross-owen.github.io/wdd231/project/images/logo.svg">
+    <meta property="og:url" content="https://ross-owen.github.io/wdd231/project/">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/time-well-spent.css">
+    <link rel="stylesheet" href="styles/time-well-spent-large.css">
+    <link rel="stylesheet" href="styles/home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/time-well-spent.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+<body>
+<header>
+    <img src="images/logo.svg" alt="Time Well Spent" width="16" height="16">
+    <div class="banner">
+        <h1>Time Well Spent</h1>
+    </div>
+    <button id="menu" title="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a id="home" class="active" href="index.html">Home</a></li>
+            <li><a id="search" href="search.html">Search</a></li>
+            <li><a id="share" href="share.html">Share</a></li>
+            <li><a id="testimonials" href="testimonials.html">Testimonials</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="hero">
+        <div class="hero-container">
+            <h2>Explore More, Travel Smarter.</h2>
+            <img src="images/hero.webp" alt="Time Well Spent" width="1200" height="562">
+            <a id="pixabay-credit" href="https://www.pexels.com/photo/airplane-silhouette-on-air-during-sunset-210199/"
+               title="Photo by Pixabay" class="playwrite-100" target="_blank">Photo by Pixabay</a>
+            <a id="call-to-action" class="button" href="search.html" title="Find a Layover!">Find a Layover!</a>
+        </div>
+    </div>
+    <div class="home-card-container">
+        <section class="card">
+            <h2>Your Layover, Your Adventure</h2>
+            <ul>
+                <li>Transform your layovers from boring wait times into unforgettable experiences. Explore new cities,
+                    immerse yourself in different cultures, and create memories that last a lifetime.
+                </li>
+                <li>Tired of rushed layovers? Discover hidden gems around the world with our curated list of flights
+                    featuring extended stopovers. Plan your dream vacation while saving on your travel costs.
+                </li>
+                <li>Extend your journey without breaking the bank. Our platform connects you to flights with long
+                    layovers, allowing you to explore additional destinations at no extra cost.
+                </li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Start Your Adventure</h2>
+            <div class="vertical-center dark-mode">
+                <img src="images/travel-the-globe.svg" alt="Travel the Globe" width="16" height="16" loading="lazy">
+                <p>Ready to embark on a journey beyond your final destination? Begin your search now and discover the
+                    hidden gems waiting for you.</p>
+                <a href="search.html" class="button" title="Start Your Adventure">Start Here</a>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Share Your Discoveries</h2>
+            <div class="vertical-center light-mode">
+                <p>Found a flight that's perfect for your next adventure? Post your discovery on our share page and inspire others to explore the world.</p>
+                <img src="images/gift.svg" alt="Share" width="24" height="24" loading="lazy">
+                <a href="share.html" class="button" title="Share with others">Share</a>
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <div>
+        <h2>&copy; 2024</h2>
+    </div>
+    <div>
+        <h2>Social Media</h2>
+    </div>
+</footer>
+</body>
+</html>
