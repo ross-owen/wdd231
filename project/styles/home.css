@@ -29,3 +29,28 @@
     bottom: 1rem;
     right: 1rem;
 }
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.vertical-center img {
+    width: 50%;
+    max-height: 150px;
+    height: auto;
+}
+
+.dark-mode {
+    background-color: var(--secondary-color);
+    color: var(--subtle-color);
+    padding: 0.5rem;
+    border-radius: 0 0 10px 10px;
+    height: calc(100% - 35px);
+}
+
+.light-mode {
+    padding: 0.5rem;
+}
