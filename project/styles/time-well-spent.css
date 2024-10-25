@@ -4,6 +4,7 @@
     --accent1-color: #86bbd8;
     --accent2-color: #3da3db;
     --subtle-color: #fff;
+    --backdrop-color: rgba(51, 101, 138, 0.6);
 }
 
 * {
@@ -125,6 +126,10 @@ footer {
 
 .open li {
     display: block;
+}
+
+main {
+    min-height: 400px;
 }
 
 .card {

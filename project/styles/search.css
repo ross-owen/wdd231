@@ -1,0 +1,129 @@
+input[type='text'] {
+    height: 2em;
+    text-indent: 8px;
+}
+
+button {
+    padding: 0.3rem 0.7rem;
+    color: var(--subtle-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
+    border: 1px solid var(--accent1-color);
+}
+
+.flight-search-header {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column label {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.flight-search-header label input[type='text'] {
+    width: 3.5em;
+}
+
+#search-from, #search-to {
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+#search-from:hover, #search-to:hover {
+    border-color: var(--accent2-color);
+}
+
+dialog {
+    align-self: center;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--secondary-color);
+    width: 50%;
+    max-width: 600px;
+}
+
+dialog::backdrop {
+    background-color: var(--backdrop-color);
+}
+
+.card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#airport-search-results {
+    width: 100%;
+}
+
+#search-box {
+    width: 10em;
+}
+
+#airport-search-results table {
+    width: 100%;
+    background-color: var(--subtle-color);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-collapse: collapse;
+}
+
+#airport-search-results th, td {
+    text-align: left;
+    padding: 0.75em 0.25em;
+}
+
+#airport-search-results th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#airport-search-results tr:nth-child(even) {
+    background-color: var(--accent1-color);
+}
+
+.map {
+    text-align: center;
+}
+
+.pick-me {
+    cursor: pointer;
+}
+
+#airport-search-results img {
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+    padding: 6px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+#airport-search-results img:hover {
+    border-color: var(--subtle-color);
+}

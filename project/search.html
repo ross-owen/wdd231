@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/time-well-spent.css">
     <link rel="stylesheet" href="styles/time-well-spent-large.css">
+    <link rel="stylesheet" href="styles/search.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +25,7 @@
     <link rel="icon" href="favicon.ico">
 
     <script src="scripts/time-well-spent.js" defer></script>
+    <script src="scripts/airport-search.js" defer></script>
 </head>
 <body>
 <header>
@@ -41,7 +43,38 @@
         </ul>
     </nav>
 </header>
-<main></main>
+<main>
+    <div class="flight-search-header">
+        <div class="column">
+            <label for="from-airport">Departing From:
+                <input id="from-airport" type="text" maxlength="3" pattern="[A-Z]{3}">
+                <img id="search-from" src="images/search.svg" alt="Find Code" title="Find Airport Code" width="16" height="16">
+            </label>
+        </div>
+        <div class="column">
+            <label for="to-airport">Arriving To:
+                <input id="to-airport" type="text" maxlength="3" pattern="[A-Z]{3}">
+                <img id="search-to" src="images/search.svg" alt="Find Code" title="Find Airport Code" width="16" height="16">
+            </label>
+        </div>
+        <div class="column">
+            <button id="search-flights" title="Search for Flights">Search For Flights</button>
+        </div>
+    </div>
+    <hr>
+    <dialog id="search-dialog" class="card">
+        <h2>Search For <span id="search-city"></span> Airport</h2>
+        <div class="card-content">
+            <div>
+                <label for="search-box">City Name:
+                    <input id="search-box" type="text" placeholder="Salt Lake City">
+                </label>
+                <button id="search-button" value="Search">Search</button>
+            </div>
+            <div id="airport-search-results"></div>
+        </div>
+    </dialog>
+</main>
 <footer>
     <div class="copyright">
         <h2>&copy; 2024 Time Well Spent</h2>
@@ -49,7 +82,8 @@
         <p>A BYU Pathway (Idaho) Experiment</p>
     </div>
     <div class="social-media">
-        <img src="images/facebook.svg" alt="Meta Facebook" title="Meta Facebook" width="512" height="512" loading="lazy">
+        <img src="images/facebook.svg" alt="Meta Facebook" title="Meta Facebook" width="512" height="512"
+             loading="lazy">
         <img src="images/instagram.svg" alt="Instagram" title="Instagram" width="512" height="512" loading="lazy">
         <img src="images/twitter.svg" alt="X" title="X" width="24" height="24" loading="lazy">
     </div>
