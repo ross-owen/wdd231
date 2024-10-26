@@ -1,41 +1,26 @@
-const searchByNameUrl = "https://airports15.p.rapidapi.com/airports?page=1&page_size=20&sorted_by=name&name=";
-const options = {
-    method: 'GET',
-    headers: {
-        'x-rapidapi-key': '6f9865ea24msh2bf6421e368af87p1899c3jsn2be62ac917e3',
-        'x-rapidapi-host': 'airports15.p.rapidapi.com'
-    }
-};
-const searchBox = document.getElementById('search-box');
-const searchButton = document.getElementById('search-button');
-const searchAirportDialog = document.getElementById('search-dialog');
-const fromAirport = document.getElementById('from-airport');
-const toAirport = document.getElementById('to-airport');
-const airportType = document.getElementById('search-city');
-const airportSearchResults = document.getElementById('airport-search-results');
-let searchingFor = fromAirport;
-
-searchButton.addEventListener('click', searchAirports);
-
-document.getElementById('search-from')
-    .addEventListener('click', () => showAirportSearch('Departure'));
-document.getElementById('search-to')
-    .addEventListener('click', () => showAirportSearch('Destination'));
-
-
-async function searchAirports() {
+export async function searchAirports(airportSearchResults, searchTerm, selectionCallback) {
     airportSearchResults.innerHTML = '';
-    const uri = encodeURI(searchByNameUrl  + searchBox.value);
+
+    const searchByNameUrl = "https://airports15.p.rapidapi.com/airports?page=1&page_size=20&sorted_by=name&name=";
+    const options = {
+        method: 'GET',
+        headers: {
+            'x-rapidapi-key': '6f9865ea24msh2bf6421e368af87p1899c3jsn2be62ac917e3',
+            'x-rapidapi-host': 'airports15.p.rapidapi.com'
+        }
+    };
+    
+    const uri = encodeURI(searchByNameUrl  + searchTerm);
     const response = await fetch(uri, options);
     if (response.status === 200) {
         const result = await response.json();
         if (result && result.data && result.data.length > 0) {
-            populateAirports(result.data);
+            populateAirports(result.data, airportSearchResults, selectionCallback);
         }
     }
 }
 
-function populateAirports(airports) {
+function populateAirports(airports, airportSearchResults, selectionCallback) {
     let table = document.createElement('table');
     table.innerHTML = `
         <tbody>
@@ -57,7 +42,7 @@ function populateAirports(airports) {
             pickMe.title = 'Select';
             pickMe.width = 16; 
             pickMe.height = 16; 
-            pickMe.addEventListener('click', () => { selectAirport(airport.iata_code); });
+            pickMe.addEventListener('click', () => { selectionCallback(airport.iata_code); });
             col1.appendChild(pickMe);
             
             let col2 = document.createElement("td");
@@ -76,20 +61,4 @@ function populateAirports(airports) {
         }
     }
     airportSearchResults.appendChild(table);
-}
-
-function selectAirport(airportCode) {
-    searchingFor.value = airportCode;
-    searchAirportDialog.close();
-}
-
-function showAirportSearch(fromTo) {
-    airportType.innerHTML = fromTo;
-    searchBox.value = '';
-    if (fromTo === 'Departure') {
-        searchingFor = fromAirport;
-    } else {
-        searchingFor = toAirport;
-    }
-    searchAirportDialog.showModal();
 }
