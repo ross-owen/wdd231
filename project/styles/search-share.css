@@ -1,4 +1,8 @@
-input[type='text'], input[type='date'] {
+main {
+    margin-bottom: 1rem;
+}
+
+input[type='text'], input[type='date'], input[type='number'] {
     height: 2em;
     text-indent: 8px;
 }
@@ -27,33 +31,37 @@ button:hover {
 }
 
 .airport-code {
-    width: 3.5em;
+    width: 4em;
+}
+
+.airport {
+    width: 10em;
 }
 
 .date-picker {
     width: 10em;
 }
 
-.search-group {
+.data-group {
     display: flex;
     gap: 2rem;
 }
 
-.search-field {
+.data-field {
 }
 
-.search-field label {
+.data-field label {
     font-size: 0.8em;
     display: block;
 }
 
-.search-field span {
+.data-field span {
     display: flex;
     align-items: center;
     gap: 0.5em;
 }
 
-.search-field img {
+.data-field img {
     width: 32px;
     height: auto;
     cursor: pointer;
@@ -62,7 +70,7 @@ button:hover {
     border-radius: 5px;
 }
 
-.search-field img:hover {
+.data-field img:hover {
     border-color: var(--accent2-color);
 }
 
@@ -97,7 +105,7 @@ dialog::backdrop {
     width: 10em;
 }
 
-#airport-search-results table {
+table {
     width: 100%;
     background-color: var(--subtle-color);
     border: 1px solid black;
@@ -107,17 +115,17 @@ dialog::backdrop {
     border-collapse: collapse;
 }
 
-#airport-search-results th, td {
+th, td {
     text-align: left;
     padding: 0.75em 0.25em;
 }
 
-#airport-search-results th {
+th {
     background-color: var(--primary-color);
     color: white;
 }
 
-#airport-search-results tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: var(--accent1-color);
 }
 
@@ -140,4 +148,29 @@ dialog::backdrop {
 
 #airport-search-results img:hover {
     border-color: var(--secondary-color);
+}
+
+.shared-section {
+    width: 100%
+}
+
+.data-sharing {
+    margin-top: 1rem;
+}
+
+.sub-header {
+    font-size: 0.75rem;
+}
+
+#share-button {
+    margin-top: 1em;
+    width: 10em;
+}
+
+#shared-data {
+    margin-bottom: 2rem;
+}
+
+.bottom-element {
+    padding-bottom: 1rem;
 }

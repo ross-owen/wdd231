@@ -70,16 +70,14 @@ function createSearchRequest(fromAirport, toAirport, departureDate, returnDate) 
 
 function getOptions() {
     return {
+        mode: 'no-cors',
         method: 'POST',
         headers: {
             'Accept-Encoding': 'gzip',
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'Duffel-Version': 'v2',
-            'Authorization': `Bearer ${token}`,
-            'Access-Control-Allow-Origin': 'https://ross-owen.github.io',
-            'Access-Control-Allow-Methods': 'POST, DELETE, PUT, OPTIONS',
-            'User-Agent': 'Ross L. Owen | Student @ BYU Idaho'
+            'Authorization': `Bearer ${token}`
         },
         body: createSearchRequest(originAirport.value, destinationAirport.value, departureDate.value, returnDate.value)
     };

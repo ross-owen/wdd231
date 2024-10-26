@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/time-well-spent.css">
     <link rel="stylesheet" href="styles/time-well-spent-large.css">
+    <link rel="stylesheet" href="styles/search-share.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +25,7 @@
     <link rel="icon" href="favicon.ico">
 
     <script src="scripts/time-well-spent.js" defer></script>
+    <script src="scripts/share.js" defer></script>
 </head>
 <body>
 <header>
@@ -37,11 +39,77 @@
             <li><a id="home" href="index.html">Home</a></li>
             <li><a id="search" href="search.html">Search</a></li>
             <li><a id="share" class="active" href="share.html">Share</a></li>
-            <li><a id="testimonials" href="testimonials.html">Testimonials</a></li>
         </ul>
     </nav>
 </header>
-<main></main>
+<main>
+    <section class="shared-section">
+        <h2 class="data-sharing">Shared Itineraries</h2>
+        <table class="data-sharing" id="shared-data">
+            <tr>
+                <th colspan="2">DEPARTING</th>
+                <th colspan="2">ARRIVING</th>
+                <th>LAYOVER CITY</th>
+                <th>PRICE</th>
+            </tr>
+            <tr class="sub-header">
+                <th>City</th>
+                <th>Date</th>
+                <th>City</th>
+                <th>Date</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+        <div class="card bottom-element">
+            <h2>Have Something To Share?</h2>
+            <div class="card-content">
+                <p>Please consider sharing what you have found...</p>
+                <button id="share-now" title="Share Itinerary">Share Itinerary</button>
+            </div>
+        </div>
+    </section>
+    <dialog id="share-flight" class="card">
+        <h2>Please Share</h2>
+        <form method="get">
+            <div class="card-content">
+                <div class="data-group">
+                    <div class="data-field">
+                        <label for="from-airport">Departing From:</label>
+                        <input class="airport" required id="from-airport" name="d-city" type="text">
+                    </div>
+                    <div class="data-field">
+                        <label for="to-airport">Arriving To:</label>
+                        <input class="airport" required id="to-airport" name="a-city" type="text">
+                    </div>
+                </div>
+                <div class="data-group">
+                    <div class="data-field">
+                        <label for="departure-date">Departure Date:</label>
+                        <input class="date-picker" required id="departure-date" name="d-date" type="date">
+                    </div>
+                    <div class="data-field">
+                        <label for="return-date">Return Date:</label>
+                        <input class="date-picker" required id="return-date" name="r-date" type="date">
+                    </div>
+                </div>
+                <div class="data-group">
+                    <div class="data-field">
+                        <label for="layover-city">Layover City:</label>
+                        <input class="airport" required id="layover-city" name="l-city" type="text">
+                    </div>
+                    <div class="data-field">
+                        <label for="flight-price">Total Price:</label>
+                        <input class="airport" required id="flight-price" name="price" type="number" step="0.01" placeholder="200.00">
+                    </div>
+                </div>
+                <div class="data-field">
+                    <button id="share-button" title="Share" type="submit">Share</button>
+                </div>
+            </div>
+        </form>
+    </dialog>
+</main>
 <footer>
     <div class="copyright">
         <h2>&copy; 2024 Time Well Spent</h2>
@@ -49,7 +117,8 @@
         <p>A BYU Pathway (Idaho) Experiment</p>
     </div>
     <div class="social-media">
-        <img src="images/facebook.svg" alt="Meta Facebook" title="Meta Facebook" width="512" height="512" loading="lazy">
+        <img src="images/facebook.svg" alt="Meta Facebook" title="Meta Facebook" width="512" height="512"
+             loading="lazy">
         <img src="images/instagram.svg" alt="Instagram" title="Instagram" width="512" height="512" loading="lazy">
         <img src="images/twitter.svg" alt="X" title="X" width="24" height="24" loading="lazy">
     </div>
