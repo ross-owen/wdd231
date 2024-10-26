@@ -1,4 +1,4 @@
-export async function searchFlights(flightSearchResults) {
+export async function searchFlights(flightSearchResults, selectionCallback) {
     let searchResults = [];
     try {
         // let request = new Request(offerUrl, getOptions());
@@ -40,6 +40,7 @@ export async function searchFlights(flightSearchResults) {
                 <td>${itinerary.layoverCity}</td>
                 <td>$${itinerary.totalPrice ?? '0.00'}</td>
             `;
+                row.addEventListener('click', () => selectionCallback(itinerary));
                 flightSearchResults.appendChild(row);
             }
         }

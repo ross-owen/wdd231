@@ -174,3 +174,17 @@ tr:nth-child(even) {
 .bottom-element {
     padding-bottom: 1rem;
 }
+
+.field-label {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.field-value {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.share-button {
+    margin: 0.5em;
+}

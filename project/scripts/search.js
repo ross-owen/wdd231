@@ -17,6 +17,7 @@ const destinationAirport = document.getElementById('to-airport');
 const departureDate = document.getElementById('departure-date');
 const returnDate = document.getElementById('return-date');
 const flightSearchResults = document.getElementById('flight-search-results');
+const itineraryDialog = document.getElementById('itinerary-dialog');
 
 // init
 let searchingFor = fromAirport;
@@ -42,7 +43,7 @@ document.getElementById('search-flights')
             form.reportValidity();
         } else {
             event.preventDefault();
-            searchFlights(flightSearchResults).then((found) => {
+            searchFlights(flightSearchResults, showFlightModal).then((found) => {
                 // hide spinner?
                 // enable button
                 console.log(found);
@@ -69,4 +70,56 @@ function showAirportSearch(fromTo) {
         searchingFor = toAirport;
     }
     searchAirportDialog.showModal();
+}
+
+function showFlightModal(itinerary) {
+    itineraryDialog.innerHTML = `
+        <h2>Layover In ${itinerary.layoverCity} for $${itinerary.totalPrice}</h2>
+        <div class="card-content">
+            <div class="data-group">
+                <div class="data-field">
+                    <span class="field-label">From City:</span>
+                    <div class="field-value">${itinerary.originCity}</div>
+                </div>
+                <div class="data-field">
+                    <span class="field-label">Layover City:</span>
+                    <div class="field-value">${itinerary.layoverCity}</div>
+                </div>
+                <div class="data-field">            
+                    <span class="field-label">Detination City:</span>
+                    <div class="field-value">${itinerary.destinationCity}</div>
+                </div>
+            </div>
+            <hr>
+            <div class="data-group">
+                <div class="data-field">
+                    <span class="field-label">Departure Date:</span>
+                    <div class="field-value">
+                        ${itinerary.departureDate.toLocaleDateString('en-US')}
+                        <br>
+                        ${itinerary.departureDate.toLocaleTimeString('en-US')}                    
+                    </div>
+                </div>
+                <div class="data-field">
+                    <span class="field-label">Return Date:</span>
+                    <div class="field-value">
+                        ${itinerary.returningDate.toLocaleDateString('en-US')}
+                        <br>
+                        ${itinerary.returningDate.toLocaleTimeString('en-US')}                    
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="data-group">
+                <div class="data-field">
+                    <span class="field-label">Total Price:</span>
+                    <div class="field-value">$${itinerary.totalPrice}</div>
+                </div>
+                <div class="data-field share-button">
+                    <a class="button" target="_blank" href="share.html?d-city=${itinerary.originCity}&a-city=${itinerary.destinationCity}&d-date=${itinerary.departureDate.toLocaleDateString('en-US')}&r-date=${itinerary.returningDate.toLocaleDateString('en-US')}&l-city=${itinerary.layoverCity}&price=${itinerary.totalPrice}">Share On Site</a>
+                </div>
+            </div>
+        </div>    
+    `;
+    itineraryDialog.showModal();
 }
