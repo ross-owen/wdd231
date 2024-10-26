@@ -26,6 +26,7 @@
 
     <script src="scripts/time-well-spent.js" defer></script>
     <script src="scripts/airport-search.js" defer></script>
+    <script src="scripts/flight-search.js" defer></script>
 </head>
 <body>
 <header>
@@ -44,23 +45,45 @@
     </nav>
 </header>
 <main>
-    <div class="flight-search-header">
-        <div class="column">
-            <label for="from-airport">Departing From:
-                <input id="from-airport" type="text" maxlength="3" pattern="[A-Z]{3}">
-                <img id="search-from" src="images/search.svg" alt="Find Code" title="Find Airport Code" width="16" height="16">
-            </label>
+    <form id="search-form">
+        <div class="flight-search-header">
+            <div class="search-group">
+                <div class="search-field">
+                    <label for="from-airport">Departing From:</label>
+                    <span>
+                <input class="airport-code" required id="from-airport" type="text" maxlength="3" pattern="[A-Za-z]{3}">
+                <img id="search-from" src="images/search.svg" alt="Find Code" title="Find Airport Code" width="16"
+                     height="16">
+            </span>
+                </div>
+                <div class="search-field">
+                    <label for="to-airport">Arriving To:</label>
+                    <span>
+                <input class="airport-code" required id="to-airport" type="text" maxlength="3" pattern="[A-Za-z]{3}">
+                <img id="search-to" src="images/search.svg" alt="Find Code" title="Find Airport Code" width="16"
+                     height="16">
+            </span>
+                </div>
+            </div>
+            <div class="search-group">
+                <div class="search-field">
+                    <label for="departure-date">Departure Date:</label>
+                    <span>
+                <input class="date-picker" required id="departure-date" type="date" placeholder="12/31/2024">
+            </span>
+                </div>
+                <div class="search-field">
+                    <label for="return-date">Return Date:</label>
+                    <span>
+                <input class="date-picker" required id="return-date" type="date" placeholder="01/08/2025">
+            </span>
+                </div>
+            </div>
+            <div class="search-field">
+                <button id="search-flights" title="Search for Flights">Search For Flights</button>
+            </div>
         </div>
-        <div class="column">
-            <label for="to-airport">Arriving To:
-                <input id="to-airport" type="text" maxlength="3" pattern="[A-Z]{3}">
-                <img id="search-to" src="images/search.svg" alt="Find Code" title="Find Airport Code" width="16" height="16">
-            </label>
-        </div>
-        <div class="column">
-            <button id="search-flights" title="Search for Flights">Search For Flights</button>
-        </div>
-    </div>
+    </form>
     <hr>
     <dialog id="search-dialog" class="card">
         <h2>Search For <span id="search-city"></span> Airport</h2>

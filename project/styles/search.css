@@ -1,4 +1,4 @@
-input[type='text'] {
+input[type='text'], input[type='date'] {
     height: 2em;
     text-indent: 8px;
 }
@@ -20,26 +20,40 @@ button:hover {
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: space-between;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    justify-content: space-evenly;
+    align-items: end;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-.column label {
-    display: flex;
-    align-items: center;
-    column-gap: 0.5rem;
-}
-
-.flight-search-header label input[type='text'] {
+.airport-code {
     width: 3.5em;
 }
 
-#search-from, #search-to {
+.date-picker {
+    width: 10em;
+}
+
+.search-group {
+    display: flex;
+    gap: 2rem;
+}
+
+.search-field {
+}
+
+.search-field label {
+    font-size: 0.8em;
+    display: block;
+}
+
+.search-field span {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.search-field img {
     width: 32px;
     height: auto;
     cursor: pointer;
@@ -48,7 +62,7 @@ button:hover {
     border-radius: 5px;
 }
 
-#search-from:hover, #search-to:hover {
+.search-field img:hover {
     border-color: var(--accent2-color);
 }
 
@@ -120,10 +134,10 @@ dialog::backdrop {
     height: auto;
     cursor: pointer;
     padding: 6px;
-    border: 1px solid var(--accent1-color);
+    border: 1px solid var(--accent2-color);
     border-radius: 5px;
 }
 
 #airport-search-results img:hover {
-    border-color: var(--subtle-color);
+    border-color: var(--secondary-color);
 }
