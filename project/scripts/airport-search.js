@@ -9,15 +9,20 @@ export async function searchAirports(airportSearchResults, searchTerm, selection
             'x-rapidapi-host': 'airports15.p.rapidapi.com'
         }
     };
-    
-    const uri = encodeURI(searchByNameUrl  + searchTerm);
-    const response = await fetch(uri, options);
-    if (response.status === 200) {
-        const result = await response.json();
-        if (result && result.data && result.data.length > 0) {
-            populateAirports(result.data, airportSearchResults, selectionCallback);
+
+    try {
+        const uri = encodeURI(searchByNameUrl + searchTerm);
+        const response = await fetch(uri, options);
+        if (response.status === 200) {
+            const result = await response.json();
+            if (result && result.data && result.data.length > 0) {
+                populateAirports(result.data, airportSearchResults, selectionCallback);
+            }
         }
+    } catch (error) {
+        console.error(error);
     }
+
 }
 
 function populateAirports(airports, airportSearchResults, selectionCallback) {
@@ -40,23 +45,25 @@ function populateAirports(airports, airportSearchResults, selectionCallback) {
             pickMe.classList.add('pick-me');
             pickMe.src = 'images/pick-me.svg';
             pickMe.title = 'Select';
-            pickMe.width = 16; 
-            pickMe.height = 16; 
-            pickMe.addEventListener('click', () => { selectionCallback(airport.iata_code); });
+            pickMe.width = 16;
+            pickMe.height = 16;
+            pickMe.addEventListener('click', () => {
+                selectionCallback(airport.iata_code);
+            });
             col1.appendChild(pickMe);
-            
+
             let col2 = document.createElement("td");
             col2.innerHTML = `<td>${airport.iata_code}</td>`;
             let col3 = document.createElement("td");
             col3.innerHTML = `<td>${airport.name}</td>`;
             let col4 = document.createElement("td");
             col4.innerHTML = `<td class="map"><a href="https://maps.google.com/?q=${airport.lat},${airport.lon}" target="_blank"><img src="images/google-map.svg" alt="${airport.city}" title="${airport.city}" width="16" height="16"></a></td>`;
-            
+
             row.appendChild(col1);
             row.appendChild(col2);
             row.appendChild(col3);
             row.appendChild(col4);
-            
+
             table.appendChild(row);
         }
     }
