@@ -1,0 +1,4299 @@
+{
+  "data": {
+    "offers": [
+      {
+        "total_emissions_kg": "776",
+        "payment_requirements": {
+          "price_guarantee_expires_at": "2024-10-28T03:16:45Z",
+          "payment_required_by": "2024-10-29T03:16:45Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "418.20",
+        "supported_loyalty_programmes": [],
+        "private_fares": [],
+        "tax_amount": "75.28",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:45.375582Z",
+        "live_mode": false,
+        "total_amount": "493.48",
+        "slices": [
+          {
+            "comparison_key": "BlkrfA==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basic",
+            "segments": [
+              {
+                "origin_terminal": "2",
+                "destination_terminal": "1",
+                "aircraft": null,
+                "departing_at": "2025-01-19T13:56:00",
+                "arriving_at": "2025-01-19T18:01:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                  "logo_lockup_url": null,
+                  "conditions_of_carriage_url": null,
+                  "iata_code": "ZZ",
+                  "name": "Duffel Airways",
+                  "id": "arl_00009VME7D6ivUu8dn35WK"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                  "logo_lockup_url": null,
+                  "conditions_of_carriage_url": null,
+                  "iata_code": "ZZ",
+                  "name": "Duffel Airways",
+                  "id": "arl_00009VME7D6ivUu8dn35WK"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "5524",
+                "marketing_carrier_flight_number": "5524",
+                "distance": "4886.040138337672",
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "30",
+                          "legroom": "n/a",
+                          "type": null
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "checked"
+                      },
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "Y20LGTN2",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT7H5M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8eldio5NM9RcQH"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": {
+                "penalty_currency": null,
+                "penalty_amount": null,
+                "allowed": false
+              }
+            },
+            "duration": "PT7H5M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8eldio5NM9RcQK"
+          },
+          {
+            "comparison_key": "AU3xsA==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basic",
+            "segments": [
+              {
+                "origin_terminal": "2",
+                "destination_terminal": "1",
+                "aircraft": null,
+                "departing_at": "2025-01-28T20:54:00",
+                "arriving_at": "2025-01-29T06:59:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                  "logo_lockup_url": null,
+                  "conditions_of_carriage_url": null,
+                  "iata_code": "ZZ",
+                  "name": "Duffel Airways",
+                  "id": "arl_00009VME7D6ivUu8dn35WK"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+                  "logo_lockup_url": null,
+                  "conditions_of_carriage_url": null,
+                  "iata_code": "ZZ",
+                  "name": "Duffel Airways",
+                  "id": "arl_00009VME7D6ivUu8dn35WK"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "5524",
+                "marketing_carrier_flight_number": "5524",
+                "distance": "4886.040138337672",
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "30",
+                          "legroom": "n/a",
+                          "type": null
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "checked"
+                      },
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "Y20LGTN2",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT7H5M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8eldio5NM9RcQN"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": {
+                "penalty_currency": null,
+                "penalty_amount": null,
+                "allowed": false
+              }
+            },
+            "duration": "PT7H5M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8eldio5NM9RcQS"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": {
+            "penalty_currency": null,
+            "penalty_amount": null,
+            "allowed": false
+          },
+          "change_before_departure": {
+            "penalty_currency": null,
+            "penalty_amount": null,
+            "allowed": false
+          }
+        },
+        "updated_at": "2024-10-26T03:16:45.375582Z",
+        "expires_at": "2024-10-26T03:46:45.375056Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/ZZ.svg",
+          "logo_lockup_url": null,
+          "conditions_of_carriage_url": null,
+          "iata_code": "ZZ",
+          "name": "Duffel Airways",
+          "id": "arl_00009VME7D6ivUu8dn35WK"
+        },
+        "id": "off_0000AnNx8elzhUMxNFbtxr"
+      },
+      {
+        "total_emissions_kg": "716",
+        "payment_requirements": {
+          "price_guarantee_expires_at": "2024-10-28T03:16:45Z",
+          "payment_required_by": "2024-10-29T03:16:45Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "426.37",
+        "supported_loyalty_programmes": [
+          "AA",
+          "CX",
+          "MH",
+          "BA",
+          "AY",
+          "UL",
+          "QF",
+          "IB",
+          "JM",
+          "AS",
+          "QR",
+          "UM",
+          "RJ",
+          "AT"
+        ],
+        "private_fares": [],
+        "tax_amount": "76.76",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:45.379293Z",
+        "live_mode": false,
+        "total_amount": "503.13",
+        "slices": [
+          {
+            "comparison_key": "AYRJ0w==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basic",
+            "segments": [
+              {
+                "origin_terminal": "2",
+                "destination_terminal": "1",
+                "aircraft": null,
+                "departing_at": "2025-01-19T13:56:00",
+                "arriving_at": "2025-01-19T18:01:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AA.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AA.svg",
+                  "conditions_of_carriage_url": "https://www.aa.com/i18n/customer-service/support/conditions-of-carriage.jsp",
+                  "iata_code": "AA",
+                  "name": "American Airlines",
+                  "id": "arl_00009VME7DAGiJjwomhv32"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AA.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AA.svg",
+                  "conditions_of_carriage_url": "https://www.aa.com/i18n/customer-service/support/conditions-of-carriage.jsp",
+                  "iata_code": "AA",
+                  "name": "American Airlines",
+                  "id": "arl_00009VME7DAGiJjwomhv32"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "4",
+                "marketing_carrier_flight_number": "4",
+                "distance": "4886.040138337672",
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "30",
+                          "legroom": "n/a",
+                          "type": null
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "checked"
+                      },
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "Y20LGTN2",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT7H5M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8en3dXDhQY6kct"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": {
+                "penalty_currency": "GBP",
+                "penalty_amount": "70.00",
+                "allowed": true
+              }
+            },
+            "duration": "PT7H5M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8en3dXDhQY6kcx"
+          },
+          {
+            "comparison_key": "AxFguA==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basic",
+            "segments": [
+              {
+                "origin_terminal": "2",
+                "destination_terminal": "1",
+                "aircraft": null,
+                "departing_at": "2025-01-28T20:54:00",
+                "arriving_at": "2025-01-29T06:59:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AA.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AA.svg",
+                  "conditions_of_carriage_url": "https://www.aa.com/i18n/customer-service/support/conditions-of-carriage.jsp",
+                  "iata_code": "AA",
+                  "name": "American Airlines",
+                  "id": "arl_00009VME7DAGiJjwomhv32"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AA.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AA.svg",
+                  "conditions_of_carriage_url": "https://www.aa.com/i18n/customer-service/support/conditions-of-carriage.jsp",
+                  "iata_code": "AA",
+                  "name": "American Airlines",
+                  "id": "arl_00009VME7DAGiJjwomhv32"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "4",
+                "marketing_carrier_flight_number": "4",
+                "distance": "4886.040138337672",
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "30",
+                          "legroom": "n/a",
+                          "type": null
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "checked"
+                      },
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "Y20LGTN2",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT7H5M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8en3dXDhQY6kd1"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": {
+                "penalty_currency": "GBP",
+                "penalty_amount": "70.00",
+                "allowed": true
+              }
+            },
+            "duration": "PT7H5M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8en3dXDhQY6kd4"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": {
+            "penalty_currency": null,
+            "penalty_amount": null,
+            "allowed": false
+          },
+          "change_before_departure": {
+            "penalty_currency": "GBP",
+            "penalty_amount": "70.00",
+            "allowed": true
+          }
+        },
+        "updated_at": "2024-10-26T03:16:45.379293Z",
+        "expires_at": "2024-10-26T03:46:45.378680Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AA.svg",
+          "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AA.svg",
+          "conditions_of_carriage_url": "https://www.aa.com/i18n/customer-service/support/conditions-of-carriage.jsp",
+          "iata_code": "AA",
+          "name": "American Airlines",
+          "id": "arl_00009VME7DAGiJjwomhv32"
+        },
+        "id": "off_0000AnNx8en3dXDhQY6kd7"
+      },
+      {
+        "total_emissions_kg": "560",
+        "payment_requirements": {
+          "price_guarantee_expires_at": null,
+          "payment_required_by": "2024-10-27T03:16:46Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "469.80",
+        "supported_loyalty_programmes": [
+          "AA",
+          "CX",
+          "MH",
+          "BA",
+          "AY",
+          "UL",
+          "QF",
+          "IB",
+          "JM",
+          "AS",
+          "QR",
+          "UM",
+          "RJ",
+          "AT"
+        ],
+        "private_fares": [],
+        "tax_amount": "81.59",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:46.064808Z",
+        "live_mode": false,
+        "total_amount": "551.39",
+        "slices": [
+          {
+            "comparison_key": "A/UzeA==",
+            "ngs_shelf": 5,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Flagship First Flexible",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-19T09:25:00",
+                "arriving_at": "2025-01-19T10:40:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0627",
+                "marketing_carrier_flight_number": "0627",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT2H15M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FE3"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-19T17:55:00",
+                "arriving_at": "2025-01-19T22:28:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0839",
+                "marketing_carrier_flight_number": "0839",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT6H33M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FE4"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT16H3M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8iib241nbs3FE5"
+          },
+          {
+            "comparison_key": "AZTdNg==",
+            "ngs_shelf": 5,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Flagship First Flexible",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-28T23:28:00",
+                "arriving_at": "2025-01-29T07:15:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0810",
+                "marketing_carrier_flight_number": "0810",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT5H47M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FE7"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-29T13:46:00",
+                "arriving_at": "2025-01-29T16:45:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0518",
+                "marketing_carrier_flight_number": "0518",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT1H59M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FE8"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H17M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8iib241nbs3FE9"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": null,
+          "change_before_departure": null
+        },
+        "updated_at": "2024-10-26T03:16:46.064808Z",
+        "expires_at": "2024-10-26T04:16:46.058006Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+          "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+          "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+          "iata_code": "AS",
+          "name": "Alaska Airlines",
+          "id": "arl_00009VME7DAch01WpssCcN"
+        },
+        "id": "off_0000AnNx8iix0kJNcyDWm9"
+      },
+      {
+        "total_emissions_kg": "560",
+        "payment_requirements": {
+          "price_guarantee_expires_at": null,
+          "payment_required_by": "2024-10-27T03:16:46Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "469.80",
+        "supported_loyalty_programmes": [
+          "AA",
+          "CX",
+          "MH",
+          "BA",
+          "AY",
+          "UL",
+          "QF",
+          "IB",
+          "JM",
+          "AS",
+          "QR",
+          "UM",
+          "RJ",
+          "AT"
+        ],
+        "private_fares": [],
+        "tax_amount": "81.59",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:46.064808Z",
+        "live_mode": false,
+        "total_amount": "551.39",
+        "slices": [
+          {
+            "comparison_key": "B5DeDw==",
+            "ngs_shelf": 5,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Flagship First Flexible",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-19T11:23:00",
+                "arriving_at": "2025-01-19T12:40:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0631",
+                "marketing_carrier_flight_number": "0631",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT2H17M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FDs"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-19T17:55:00",
+                "arriving_at": "2025-01-19T22:28:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0839",
+                "marketing_carrier_flight_number": "0839",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT6H33M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FDt"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H5M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8iib241nbs3FDu"
+          },
+          {
+            "comparison_key": "AZTdNg==",
+            "ngs_shelf": 5,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Flagship First Flexible",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-28T23:28:00",
+                "arriving_at": "2025-01-29T07:15:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0810",
+                "marketing_carrier_flight_number": "0810",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT5H47M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FDw"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-29T13:46:00",
+                "arriving_at": "2025-01-29T16:45:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0518",
+                "marketing_carrier_flight_number": "0518",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJBN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT1H59M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iib241nbs3FDx"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H17M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8iib241nbs3FDy"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": null,
+          "change_before_departure": null
+        },
+        "updated_at": "2024-10-26T03:16:46.064808Z",
+        "expires_at": "2024-10-26T04:16:46.056589Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+          "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+          "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+          "iata_code": "AS",
+          "name": "Alaska Airlines",
+          "id": "arl_00009VME7DAch01WpssCcN"
+        },
+        "id": "off_0000AnNx8iib241nbs3FE0"
+      },
+      {
+        "total_emissions_kg": "560",
+        "payment_requirements": {
+          "price_guarantee_expires_at": null,
+          "payment_required_by": "2024-10-27T03:16:46Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "567.68",
+        "supported_loyalty_programmes": [
+          "AA",
+          "CX",
+          "MH",
+          "BA",
+          "AY",
+          "UL",
+          "QF",
+          "IB",
+          "JM",
+          "AS",
+          "QR",
+          "UM",
+          "RJ",
+          "AT"
+        ],
+        "private_fares": [],
+        "tax_amount": "83.72",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:46.064808Z",
+        "live_mode": false,
+        "total_amount": "651.40",
+        "slices": [
+          {
+            "comparison_key": "A/UzeA==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-19T09:25:00",
+                "arriving_at": "2025-01-19T10:40:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0627",
+                "marketing_carrier_flight_number": "0627",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT2H15M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmN"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-19T17:55:00",
+                "arriving_at": "2025-01-19T22:28:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0839",
+                "marketing_carrier_flight_number": "0839",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT6H33M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmO"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT16H3M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWmP"
+          },
+          {
+            "comparison_key": "AZTdNg==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-28T23:28:00",
+                "arriving_at": "2025-01-29T07:15:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0810",
+                "marketing_carrier_flight_number": "0810",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT5H47M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmR"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-29T13:46:00",
+                "arriving_at": "2025-01-29T16:45:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0518",
+                "marketing_carrier_flight_number": "0518",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT1H59M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmS"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H17M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWmT"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": null,
+          "change_before_departure": null
+        },
+        "updated_at": "2024-10-26T03:16:46.064808Z",
+        "expires_at": "2024-10-26T04:16:46.060716Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+          "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+          "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+          "iata_code": "AS",
+          "name": "Alaska Airlines",
+          "id": "arl_00009VME7DAch01WpssCcN"
+        },
+        "id": "off_0000AnNx8iix0kJNcyDWmV"
+      },
+      {
+        "total_emissions_kg": "560",
+        "payment_requirements": {
+          "price_guarantee_expires_at": null,
+          "payment_required_by": "2024-10-27T03:16:46Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "567.68",
+        "supported_loyalty_programmes": [
+          "AA",
+          "CX",
+          "MH",
+          "BA",
+          "AY",
+          "UL",
+          "QF",
+          "IB",
+          "JM",
+          "AS",
+          "QR",
+          "UM",
+          "RJ",
+          "AT"
+        ],
+        "private_fares": [],
+        "tax_amount": "83.72",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:46.064808Z",
+        "live_mode": false,
+        "total_amount": "651.40",
+        "slices": [
+          {
+            "comparison_key": "B5DeDw==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-19T11:23:00",
+                "arriving_at": "2025-01-19T12:40:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0631",
+                "marketing_carrier_flight_number": "0631",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT2H17M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmC"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-19T17:55:00",
+                "arriving_at": "2025-01-19T22:28:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0839",
+                "marketing_carrier_flight_number": "0839",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT6H33M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmD"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H5M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWmE"
+          },
+          {
+            "comparison_key": "AZTdNg==",
+            "ngs_shelf": 1,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Basica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-28T23:28:00",
+                "arriving_at": "2025-01-29T07:15:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0810",
+                "marketing_carrier_flight_number": "0810",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT5H47M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmG"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-29T13:46:00",
+                "arriving_at": "2025-01-29T16:45:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0518",
+                "marketing_carrier_flight_number": "0518",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMN",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT1H59M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmH"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H17M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWmI"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": null,
+          "change_before_departure": null
+        },
+        "updated_at": "2024-10-26T03:16:46.064808Z",
+        "expires_at": "2024-10-26T04:16:46.059230Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+          "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+          "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+          "iata_code": "AS",
+          "name": "Alaska Airlines",
+          "id": "arl_00009VME7DAch01WpssCcN"
+        },
+        "id": "off_0000AnNx8iix0kJNcyDWmK"
+      },
+      {
+        "total_emissions_kg": "560",
+        "payment_requirements": {
+          "price_guarantee_expires_at": null,
+          "payment_required_by": "2024-10-27T03:16:46Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "704.70",
+        "supported_loyalty_programmes": [
+          "AA",
+          "CX",
+          "MH",
+          "BA",
+          "AY",
+          "UL",
+          "QF",
+          "IB",
+          "JM",
+          "AS",
+          "QR",
+          "UM",
+          "RJ",
+          "AT"
+        ],
+        "private_fares": [],
+        "tax_amount": "86.69",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:46.064808Z",
+        "live_mode": false,
+        "total_amount": "791.39",
+        "slices": [
+          {
+            "comparison_key": "A/UzeA==",
+            "ngs_shelf": 2,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Clasica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-19T09:25:00",
+                "arriving_at": "2025-01-19T10:40:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0627",
+                "marketing_carrier_flight_number": "0627",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT2H15M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmj"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-19T17:55:00",
+                "arriving_at": "2025-01-19T22:28:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0839",
+                "marketing_carrier_flight_number": "0839",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT6H33M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmk"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT16H3M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWml"
+          },
+          {
+            "comparison_key": "AZTdNg==",
+            "ngs_shelf": 2,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Clasica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-28T23:28:00",
+                "arriving_at": "2025-01-29T07:15:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0810",
+                "marketing_carrier_flight_number": "0810",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT5H47M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmn"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-29T13:46:00",
+                "arriving_at": "2025-01-29T16:45:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0518",
+                "marketing_carrier_flight_number": "0518",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT1H59M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmo"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H17M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWmp"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": null,
+          "change_before_departure": null
+        },
+        "updated_at": "2024-10-26T03:16:46.064808Z",
+        "expires_at": "2024-10-26T04:16:46.062669Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+          "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+          "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+          "iata_code": "AS",
+          "name": "Alaska Airlines",
+          "id": "arl_00009VME7DAch01WpssCcN"
+        },
+        "id": "off_0000AnNx8iix0kJNcyDWmr"
+      },
+      {
+        "total_emissions_kg": "560",
+        "payment_requirements": {
+          "price_guarantee_expires_at": null,
+          "payment_required_by": "2024-10-27T03:16:46Z",
+          "requires_instant_payment": false
+        },
+        "available_services": null,
+        "supported_passenger_identity_document_types": [
+          "passport",
+          "known_traveler_number",
+          "passenger_redress_number"
+        ],
+        "passenger_identity_documents_required": false,
+        "tax_currency": "USD",
+        "base_currency": "USD",
+        "base_amount": "704.70",
+        "supported_loyalty_programmes": [
+          "AA",
+          "CX",
+          "MH",
+          "BA",
+          "AY",
+          "UL",
+          "QF",
+          "IB",
+          "JM",
+          "AS",
+          "QR",
+          "UM",
+          "RJ",
+          "AT"
+        ],
+        "private_fares": [],
+        "tax_amount": "86.69",
+        "total_currency": "USD",
+        "created_at": "2024-10-26T03:16:46.064808Z",
+        "live_mode": false,
+        "total_amount": "791.39",
+        "slices": [
+          {
+            "comparison_key": "B5DeDw==",
+            "ngs_shelf": 2,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Clasica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-19T11:23:00",
+                "arriving_at": "2025-01-19T12:40:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0631",
+                "marketing_carrier_flight_number": "0631",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT2H17M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmY"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-19T17:55:00",
+                "arriving_at": "2025-01-19T22:28:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0839",
+                "marketing_carrier_flight_number": "0839",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT6H33M",
+                "destination": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmZ"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H5M",
+            "destination": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "origin": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWma"
+          },
+          {
+            "comparison_key": "AZTdNg==",
+            "ngs_shelf": 2,
+            "destination_type": "airport",
+            "origin_type": "airport",
+            "fare_brand_name": "Clasica",
+            "segments": [
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "73H",
+                  "name": "Boeing 737-800 (winglets)/BBJ2",
+                  "id": "arc_00009VMF8AhBTmADP77oj7"
+                },
+                "departing_at": "2025-01-28T23:28:00",
+                "arriving_at": "2025-01-29T07:15:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0810",
+                "marketing_carrier_flight_number": "0810",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT5H47M",
+                "destination": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "origin": {
+                  "icao_code": "PHLI",
+                  "iata_country_code": "US",
+                  "iata_code": "LIH",
+                  "iata_city_code": "LIH",
+                  "city_name": "Lihue",
+                  "latitude": 21.977424,
+                  "longitude": -159.341381,
+                  "city": null,
+                  "time_zone": "Pacific/Honolulu",
+                  "type": "airport",
+                  "name": "Lihue Airport",
+                  "id": "arp_lih_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmc"
+              },
+              {
+                "origin_terminal": null,
+                "destination_terminal": null,
+                "aircraft": {
+                  "iata_code": "7M9",
+                  "name": "Boeing 737 MAX 9 / BBJ MAX 9",
+                  "id": "arc_00009oBdrPis4D1mAnkllc"
+                },
+                "departing_at": "2025-01-29T13:46:00",
+                "arriving_at": "2025-01-29T16:45:00",
+                "operating_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "marketing_carrier": {
+                  "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+                  "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+                  "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+                  "iata_code": "AS",
+                  "name": "Alaska Airlines",
+                  "id": "arl_00009VME7DAch01WpssCcN"
+                },
+                "stops": [],
+                "operating_carrier_flight_number": "0518",
+                "marketing_carrier_flight_number": "0518",
+                "distance": null,
+                "passengers": [
+                  {
+                    "cabin": {
+                      "amenities": {
+                        "wifi": {
+                          "cost": "paid",
+                          "available": true
+                        },
+                        "seat": {
+                          "pitch": "31",
+                          "legroom": "standard",
+                          "type": "standard"
+                        },
+                        "power": {
+                          "available": true
+                        }
+                      },
+                      "marketing_name": "Economy",
+                      "name": "economy"
+                    },
+                    "baggages": [
+                      {
+                        "quantity": 1,
+                        "type": "carry_on"
+                      }
+                    ],
+                    "cabin_class_marketing_name": "Economy",
+                    "fare_basis_code": "QH5OAJMR",
+                    "passenger_id": "pas_0000AnNx8eTCpLLAQyotgF",
+                    "cabin_class": "economy"
+                  }
+                ],
+                "media": [],
+                "duration": "PT1H59M",
+                "destination": {
+                  "icao_code": "KSLC",
+                  "iata_country_code": "US",
+                  "iata_code": "SLC",
+                  "iata_city_code": "SLC",
+                  "city_name": "Salt Lake City",
+                  "latitude": 40.789169,
+                  "longitude": -111.978533,
+                  "city": null,
+                  "time_zone": "America/Denver",
+                  "type": "airport",
+                  "name": "Salt Lake City International Airport",
+                  "id": "arp_slc_us"
+                },
+                "origin": {
+                  "icao_code": "KSEA",
+                  "iata_country_code": "US",
+                  "iata_code": "SEA",
+                  "iata_city_code": "SEA",
+                  "city_name": "Seattle",
+                  "latitude": 47.449625,
+                  "longitude": -122.308907,
+                  "city": {
+                    "icao_code": null,
+                    "iata_country_code": "US",
+                    "iata_code": "SEA",
+                    "iata_city_code": "SEA",
+                    "city_name": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "time_zone": null,
+                    "type": "city",
+                    "name": "Seattle",
+                    "id": "cit_sea_us"
+                  },
+                  "time_zone": "America/Los_Angeles",
+                  "type": "airport",
+                  "name": "Seattle-Tacoma International Airport",
+                  "id": "arp_sea_us"
+                },
+                "id": "seg_0000AnNx8iix0kJNcyDWmd"
+              }
+            ],
+            "conditions": {
+              "priority_check_in": null,
+              "priority_boarding": null,
+              "advance_seat_selection": null,
+              "change_before_departure": null
+            },
+            "duration": "PT14H17M",
+            "destination": {
+              "icao_code": "KSLC",
+              "iata_country_code": "US",
+              "iata_code": "SLC",
+              "iata_city_code": "SLC",
+              "city_name": "Salt Lake City",
+              "latitude": 40.789169,
+              "longitude": -111.978533,
+              "city": null,
+              "time_zone": "America/Denver",
+              "type": "airport",
+              "name": "Salt Lake City International Airport",
+              "id": "arp_slc_us"
+            },
+            "origin": {
+              "icao_code": "PHLI",
+              "iata_country_code": "US",
+              "iata_code": "LIH",
+              "iata_city_code": "LIH",
+              "city_name": "Lihue",
+              "latitude": 21.977424,
+              "longitude": -159.341381,
+              "city": null,
+              "time_zone": "Pacific/Honolulu",
+              "type": "airport",
+              "name": "Lihue Airport",
+              "id": "arp_lih_us"
+            },
+            "id": "sli_0000AnNx8iix0kJNcyDWme"
+          }
+        ],
+        "passengers": [
+          {
+            "fare_type": null,
+            "loyalty_programme_accounts": [],
+            "family_name": null,
+            "given_name": null,
+            "age": null,
+            "type": "adult",
+            "id": "pas_0000AnNx8eTCpLLAQyotgF"
+          }
+        ],
+        "conditions": {
+          "refund_before_departure": null,
+          "change_before_departure": null
+        },
+        "updated_at": "2024-10-26T03:16:46.064808Z",
+        "expires_at": "2024-10-26T04:16:46.061717Z",
+        "partial": false,
+        "owner": {
+          "logo_symbol_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-logo/AS.svg",
+          "logo_lockup_url": "https://assets.duffel.com/img/airlines/for-light-background/full-color-lockup/AS.svg",
+          "conditions_of_carriage_url": "https://www.alaskaair.com/content/legal/contract-of-carriage/rule-1",
+          "iata_code": "AS",
+          "name": "Alaska Airlines",
+          "id": "arl_00009VME7DAch01WpssCcN"
+        },
+        "id": "off_0000AnNx8iix0kJNcyDWmg"
+      }
+    ],
+    "created_at": "2024-10-26T03:16:45.328364Z",
+    "cabin_class": "economy",
+    "live_mode": false,
+    "slices": [
+      {
+        "destination_type": "airport",
+        "origin_type": "airport",
+        "departure_date": "2025-01-19",
+        "destination": {
+          "icao_code": "PHLI",
+          "iata_country_code": "US",
+          "iata_code": "LIH",
+          "iata_city_code": "LIH",
+          "city_name": "Lihue",
+          "latitude": 21.977424,
+          "longitude": -159.341381,
+          "city": null,
+          "time_zone": "Pacific/Honolulu",
+          "type": "airport",
+          "name": "Lihue Airport",
+          "id": "arp_lih_us"
+        },
+        "origin": {
+          "icao_code": "KSLC",
+          "iata_country_code": "US",
+          "iata_code": "SLC",
+          "iata_city_code": "SLC",
+          "city_name": "Salt Lake City",
+          "latitude": 40.789169,
+          "longitude": -111.978533,
+          "city": null,
+          "time_zone": "America/Denver",
+          "type": "airport",
+          "name": "Salt Lake City International Airport",
+          "id": "arp_slc_us"
+        }
+      },
+      {
+        "destination_type": "airport",
+        "origin_type": "airport",
+        "departure_date": "2025-01-28",
+        "destination": {
+          "icao_code": "KSLC",
+          "iata_country_code": "US",
+          "iata_code": "SLC",
+          "iata_city_code": "SLC",
+          "city_name": "Salt Lake City",
+          "latitude": 40.789169,
+          "longitude": -111.978533,
+          "city": null,
+          "time_zone": "America/Denver",
+          "type": "airport",
+          "name": "Salt Lake City International Airport",
+          "id": "arp_slc_us"
+        },
+        "origin": {
+          "icao_code": "PHLI",
+          "iata_country_code": "US",
+          "iata_code": "LIH",
+          "iata_city_code": "LIH",
+          "city_name": "Lihue",
+          "latitude": 21.977424,
+          "longitude": -159.341381,
+          "city": null,
+          "time_zone": "Pacific/Honolulu",
+          "type": "airport",
+          "name": "Lihue Airport",
+          "id": "arp_lih_us"
+        }
+      }
+    ],
+    "passengers": [
+      {
+        "fare_type": null,
+        "loyalty_programme_accounts": [],
+        "family_name": null,
+        "given_name": null,
+        "age": null,
+        "type": "adult",
+        "id": "pas_0000AnNx8eTCpLLAQyotgF"
+      }
+    ],
+    "client_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5OTkwMDYsImxpdmVfbW9kZSI6ZmFsc2UsIm9yZ2FuaXNhdGlvbl9pZCI6Im9yZ18wMDAwQW5OWVRERjBsRmQ5RER0NzJtIn0.X-ZuH45CSotLtMOD_p-eb5QPtOaqqDsu9ViRL8x80rE",
+    "id": "orq_0000AnNx8eSqqf3aPsec9t"
+  }
+}

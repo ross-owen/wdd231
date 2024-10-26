@@ -33,8 +33,8 @@ function parseISOLocal(dateAsString) {
 }
 
 async function searchFlights() {
-    let request = new Request(offerUrl, getOptions());
-    const response = await fetch(request);
+    // let request = new Request(offerUrl, getOptions());
+    const response = await fetch('https://ross-owen.github.io/wdd231/project/scripts/flight-info.json');
     if (response.status === 200) {
         const result = await response.json();
         // TODO: do stuff with the response
