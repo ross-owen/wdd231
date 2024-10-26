@@ -77,7 +77,7 @@ function getOptions() {
             'Content-Type': 'application/json',
             'Duffel-Version': 'v2',
             'Authorization': `Bearer ${token}`,
-            'Access-Control-Allow-Origin': 'http://localhost:63342',
+            'Access-Control-Allow-Origin': 'https://ross-owen.github.io',
             'Access-Control-Allow-Methods': 'POST, DELETE, PUT, OPTIONS',
             'User-Agent': 'Ross L. Owen | Student @ BYU Idaho'
         },
